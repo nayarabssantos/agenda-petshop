@@ -37,7 +37,7 @@ class Atendimento {
             if (erro) {
                 res.status(400).json(erro)
             } else {
-                res.status(201).json(resultados)
+                res.status(201).json(atendimento)
             }
         })
         }
